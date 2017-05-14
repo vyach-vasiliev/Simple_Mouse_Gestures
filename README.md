@@ -1,6 +1,6 @@
 ![logo][1]
 
-#Simple Mouse Gestures <sup>*αlpha*</sup>
+# Simple Mouse Gestures <sup>*αlpha*</sup>
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](..blob//master/LICENSE)
 [![Support me](https://img.shields.io/badge/Support_me-PayPal-33cc33.svg)](https://www.paypal.me/wencelsaus/3)
 
