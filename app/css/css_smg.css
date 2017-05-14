@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "art-mouse-gestures";
+    src:  url("../fonts/icomoon.woff?levi88") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+#art-mouse-gestures .amg-stop[class^="fa"], #art-mouse-gestures .amg-stop[class*=" fa"]  {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "art-mouse-gestures" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#art-mouse-gestures .amg-stop.fa-lg {
+    font-size: 1.8em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+#art-mouse-gestures .amg-stop.fa-2x {
+    font-size: 2em;
+}
+#art-mouse-gestures .amg-stop.fa-3x {
+    font-size: 3em;
+}
+#art-mouse-gestures .amg-stop.fa-4x {
+    font-size: 4em;
+}
+#art-mouse-gestures .amg-stop.fa-5x {
+    font-size: 5em;
+}
+
+#art-mouse-gestures .amg-stop.fa.fa-arrow-down:before {
+    content: "\f063";
+}
+#art-mouse-gestures .amg-stop.fa.fa-arrow-up:before {
+    content: "\f062";
+}
+#art-mouse-gestures .amg-stop.fa.fa-arrow-left:before {
+    content: "\f060";
+}
+#art-mouse-gestures .amg-stop.fa.fa-arrow-right:before {
+    content: "\f061";
+}
+
+#art-mouse-gestures #art-draw-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+#art-mouse-gestures  #art-draw {
+    /*background-color: lightblue;*/
+    background-color: rgba(173, 216, 230, 0);;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#art-mouse-gestures {
+    width: 100%;
+    /*margin: 0 auto;*/
+    z-index: 999;
+    top:0;
+    position: fixed;
+}
+#art-mouse-gestures #art-move-view {
+    max-width: 500px;
+    min-width: 150px;
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+    padding: 0.5em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+
+    top: 0;
+    z-index: 999;
+    position: relative;
+    margin-top: 10px;
+
+}
+#art-mouse-gestures #art-move-view > i {
+    padding: 0.2em;
+}
+#art-mouse-gestures #art-move-view > #art-move-view-status {
+    height: 1.2em;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0.2em;
+}
+#art-mouse-gestures #art-move-view.blue {
+    background: #61abea;
+    color: white;
+}
+#art-mouse-gestures #art-move-view.red {
+    background: #61abea;
+    color: white;
+}
+#art-mouse-gestures #art-move-view.orange {
+    background: #fb9136;
+    color: white;
+}
+#art-mouse-gestures #art-move-view.yellow {
+    background: #f3f300;
+    color: #737373;
+}
+#art-mouse-gestures #art-move-view.green {
+    background: #70ce29;
+    color: white;
+}
+#art-mouse-gestures #art-move-view.black {
+    background: #737373;
+    color: white;
+}
+#art-mouse-gestures #art-move-view.white {
+    background: white;
+    color: #737373; /* #3e3e3e*/
+}
