@@ -1,5 +1,5 @@
 ![logo][1]
-
+<br>
 # Simple Mouse Gestures <sup>*αlpha*</sup>
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](..blob//master/LICENSE)
 [![Support me](https://img.shields.io/badge/Support_me-PayPal-33cc33.svg)](https://www.paypal.me/wencelsaus/3)
@@ -42,6 +42,18 @@ icon | act | route | code | access
 ↓←→    | window_restore_window_closed    | down-left-right | dlr | extension
 &nbsp; | window_minimize                 | -               | -   | extension
 &nbsp; | window_window_switch_fullscreen | -               | -   | extension
+
+---
+### Localization
+- [x] English
+- [x] Russian
+- [ ] German
+- [ ] French
+
+> If you wish to help with the translation,
+then you can take as a basis the text in the `core_smg.<version>.js` file from
+the `MAP_CONTROL_LOCALIZATION => en_US` section. And push me or create new issue.
+Thank you for your interest! :smile:
 
 ---
 ### License
